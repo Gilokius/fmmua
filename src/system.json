@@ -1,9 +1,9 @@
 {
-    "name": "fmmua",
-    "title": "FMMUA - Foundry Strike",
+    "id": "strike",
+    "title": "Strike!",
     "description": "<a href='https://www.strikerpg.com/'>https://www.strikerpg.com/</a> for Foundry VTT.",
     "background": "system-background.png",
-    "author": "Thomas Castiglione",
+    "authors": "Thomas Castiglione",
     "scripts": [
       "lib/highlight.pack.js",
       "lib/popper.min.js",
@@ -18,9 +18,9 @@
       {
         "name": "commonPowers",
         "label": "Common Powers",
-        "system": "fmmua",
-        "module": "fmmua",
-        "path": "packs/commonPowers.db",
+        "system": "strike",
+        "module": "strike",
+        "path": "./packs/commonPowers.db",
         "entity": "Item"
       }
     ],
